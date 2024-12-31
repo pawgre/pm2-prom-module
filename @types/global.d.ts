@@ -1,6 +1,7 @@
 type IConfig = {
     debug: boolean;
     port: string;
+    prefix: string;
     unix_socket_path: string;
     hostname: string;
     service_name: string;
